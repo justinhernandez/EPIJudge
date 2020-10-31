@@ -5,7 +5,7 @@
 // [ ] links
 const EPI_DATA = translateProblemMappings(problem_mapping);
 
-const ALL_LANGUAGES = ['cpp', 'java', 'python'];
+const ALL_LANGUAGES = ['cpp', 'java', 'javascript', 'python'];
 
 Vue.component('donut', {
     props: ['x', 'size', 'width', 'rad', 'lineWidth', 'font'],
@@ -195,8 +195,8 @@ const epi = new Vue({
             chapters: EPI_DATA,
             selected_chapter: null,
             all_langs: ALL_LANGUAGES,
-            langs_enabled: {"cpp": true, "java": true, "python": true},
-            langs_displayname: {"cpp": "C++", "java": "Java", "python": "Python"}
+            langs_enabled: {"cpp": true, "java": true, "javascript": true, "python": true},
+            langs_displayname: {"cpp": "C++", "java": "Java", "javascript": "Javascript", "python": "Python"}
         }
     },
     computed: {

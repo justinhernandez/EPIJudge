@@ -12,6 +12,10 @@ problem_mapping = {
             "Python: count_bits.py": {
                 "passed": 0,
                 "total": 10001
+            },
+            "Javascript: count_bits.js": {
+                "passed": 0,
+                "total": 10001
             }
         },
         "4.01 Computing the parity of a word": {
@@ -24,6 +28,10 @@ problem_mapping = {
                 "total": 10000
             },
             "Python: parity.py": {
+                "passed": 0,
+                "total": 10000
+            },
+            "Javascript: parity.js": {
                 "passed": 0,
                 "total": 10000
             }
@@ -40,6 +48,10 @@ problem_mapping = {
             "Python: swap_bits.py": {
                 "passed": 0,
                 "total": 10001
+            },
+            "Javascript: swap_bits.js": {
+                "passed": 0,
+                "total": 10001
             }
         },
         "4.03 Reverse bits": {
@@ -54,6 +66,10 @@ problem_mapping = {
             "Python: reverse_bits.py": {
                 "passed": 0,
                 "total": 10000
+            },
+            "Javascript: reverse_bits.js": {
+                "passed": 0,
+                "total": 10000
             }
         },
         "4.04 Find a closest integer with the same weight": {
@@ -65,7 +81,11 @@ problem_mapping = {
                 "passed": 0,
                 "total": 10000
             },
-            "Python: closest_int_same_weight.py": { 
+            "Python: closest_int_same_weight.py": {
+                "passed": 0,
+                "total": 10000
+            },
+            "Javascript: closest_int_same_weight.js": {
                 "passed": 0,
                 "total": 10000
             }
@@ -82,6 +102,10 @@ problem_mapping = {
             "Python: primitive_multiply.py": {
                 "passed": 0,
                 "total": 10006
+            },
+            "Javascript: primitive_multiply.js": {
+                "passed": 0,
+                "total": 10006
             }
         },
         "4.06 Compute quotient without arithmetical operators": {
@@ -94,6 +118,10 @@ problem_mapping = {
                 "total": 10000
             },
             "Python: primitive_divide.py": {
+                "passed": 0,
+                "total": 10000
+            },
+            "Javascript: primitive_divide.js": {
                 "passed": 0,
                 "total": 10000
             }
@@ -110,6 +138,10 @@ problem_mapping = {
             "Python: power_x_y.py": {
                 "passed": 0,
                 "total": 10002
+            },
+            "Javascript: power_x_y.js": {
+                "passed": 0,
+                "total": 10002
             }
         },
         "4.08 Reverse digits": {
@@ -122,6 +154,10 @@ problem_mapping = {
                 "total": 19952
             },
             "Python: reverse_digits.py": {
+                "passed": 0,
+                "total": 19952
+            },
+            "Javascript: reverse_digits.js": {
                 "passed": 0,
                 "total": 19952
             }
@@ -138,6 +174,10 @@ problem_mapping = {
             "Python: is_number_palindromic.py": {
                 "passed": 0,
                 "total": 20000
+            },
+            "Javascript: is_number_palindromic.js": {
+                "passed": 0,
+                "total": 20000
             }
         },
         "4.10 Generate uniform random numbers": {
@@ -152,6 +192,10 @@ problem_mapping = {
             "Python: uniform_random_number.py": {
                 "passed": 0,
                 "total": 7
+            },
+            "Javascript: uniform_random_number.js": {
+                "passed": 0,
+                "total": 7
             }
         },
         "4.11 Rectangle intersection": {
@@ -164,6 +208,10 @@ problem_mapping = {
                 "total": 10000
             },
             "Python: rectangle_intersection.py": {
+                "passed": 0,
+                "total": 10000
+            },
+            "Javascript: rectangle_intersection.js": {
                 "passed": 0,
                 "total": 10000
             }
@@ -182,6 +230,10 @@ problem_mapping = {
             "Python: even_odd_array.py": {
                 "passed": 0,
                 "total": 1001
+            },
+            "Javascript: even_odd_array.js": {
+                "passed": 0,
+                "total": 1001
             }
         },
         "5.01 The Dutch national flag problem": {
@@ -194,6 +246,10 @@ problem_mapping = {
                 "total": 204
             },
             "Python: dutch_national_flag.py": {
+                "passed": 0,
+                "total": 204
+            },
+            "Javascript: dutch_national_flag.js": {
                 "passed": 0,
                 "total": 204
             }
@@ -210,6 +266,10 @@ problem_mapping = {
             "Python: int_as_array_increment.py": {
                 "passed": 0,
                 "total": 505
+            },
+            "Javascript: int_as_array_increment.js": {
+                "passed": 0,
+                "total": 505
             }
         },
         "5.03 Multiply two arbitrary-precision integers": {
@@ -222,6 +282,10 @@ problem_mapping = {
                 "total": 1000
             },
             "Python: int_as_array_multiply.py": {
+                "passed": 0,
+                "total": 1000
+            },
+            "Javascript: int_as_array_multiply.js": {
                 "passed": 0,
                 "total": 1000
             }
@@ -238,6 +302,10 @@ problem_mapping = {
             "Python: advance_by_offsets.py": {
                 "passed": 0,
                 "total": 2004
+            },
+            "Javascript: advance_by_offsets.js": {
+                "passed": 0,
+                "total": 2004
             }
         },
         "5.05 Delete duplicates from a sorted array": {
@@ -250,6 +318,10 @@ problem_mapping = {
                 "total": 2003
             },
             "Python: sorted_array_remove_dups.py": {
+                "passed": 0,
+                "total": 2003
+            },
+            "Javascript: sorted_array_remove_dups.js": {
                 "passed": 0,
                 "total": 2003
             }
@@ -266,6 +338,10 @@ problem_mapping = {
             "Python: buy_and_sell_stock.py": {
                 "passed": 0,
                 "total": 402
+            },
+            "Javascript: buy_and_sell_stock.js": {
+                "passed": 0,
+                "total": 402
             }
         },
         "5.07 Buy and sell a stock twice": {
@@ -278,6 +354,10 @@ problem_mapping = {
                 "total": 402
             },
             "Python: buy_and_sell_stock_twice.py": {
+                "passed": 0,
+                "total": 402
+            },
+            "Javascript: buy_and_sell_stock_twice.js": {
                 "passed": 0,
                 "total": 402
             }
@@ -294,6 +374,10 @@ problem_mapping = {
             "Python: alternating_array.py": {
                 "passed": 0,
                 "total": 203
+            },
+            "Javascript: alternating_array.js": {
+                "passed": 0,
+                "total": 203
             }
         },
         "5.09 Enumerate all primes to n": {
@@ -306,6 +390,10 @@ problem_mapping = {
                 "total": 24
             },
             "Python: prime_sieve.py": {
+                "passed": 0,
+                "total": 24
+            },
+            "Javascript: prime_sieve.js": {
                 "passed": 0,
                 "total": 24
             }
@@ -322,6 +410,10 @@ problem_mapping = {
             "Python: apply_permutation.py": {
                 "passed": 0,
                 "total": 101
+            },
+            "Javascript: apply_permutation.js": {
+                "passed": 0,
+                "total": 101
             }
         },
         "5.11 Compute the next permutation": {
@@ -334,6 +426,10 @@ problem_mapping = {
                 "total": 2001
             },
             "Python: next_permutation.py": {
+                "passed": 0,
+                "total": 2001
+            },
+            "Javascript: next_permutation.js": {
                 "passed": 0,
                 "total": 2001
             }
@@ -350,6 +446,10 @@ problem_mapping = {
             "Python: offline_sampling.py": {
                 "passed": 0,
                 "total": 8
+            },
+            "Javascript: offline_sampling.js": {
+                "passed": 0,
+                "total": 8
             }
         },
         "5.13 Sample online data": {
@@ -362,6 +462,10 @@ problem_mapping = {
                 "total": 7
             },
             "Python: online_sampling.py": {
+                "passed": 0,
+                "total": 7
+            },
+            "Javascript: online_sampling.js": {
                 "passed": 0,
                 "total": 7
             }
@@ -378,6 +482,10 @@ problem_mapping = {
             "Python: random_permutation.py": {
                 "passed": 0,
                 "total": 6
+            },
+            "Javascript: random_permutation.js": {
+                "passed": 0,
+                "total": 6
             }
         },
         "5.15 Compute a random subset": {
@@ -390,6 +498,10 @@ problem_mapping = {
                 "total": 9
             },
             "Python: random_subset.py": {
+                "passed": 0,
+                "total": 9
+            },
+            "Javascript: random_subset.js": {
                 "passed": 0,
                 "total": 9
             }
@@ -406,6 +518,10 @@ problem_mapping = {
             "Python: nonuniform_random_number.py": {
                 "passed": 0,
                 "total": 10
+            },
+            "Javascript: nonuniform_random_number.js": {
+                "passed": 0,
+                "total": 10
             }
         },
         "5.17 The Sudoku checker problem": {
@@ -418,6 +534,10 @@ problem_mapping = {
                 "total": 745
             },
             "Python: is_valid_sudoku.py": {
+                "passed": 0,
+                "total": 745
+            },
+            "Javascript: is_valid_sudoku.js": {
                 "passed": 0,
                 "total": 745
             }
@@ -434,6 +554,10 @@ problem_mapping = {
             "Python: spiral_ordering.py": {
                 "passed": 0,
                 "total": 51
+            },
+            "Javascript: spiral_ordering.js": {
+                "passed": 0,
+                "total": 51
             }
         },
         "5.19 Rotate a 2D array": {
@@ -448,6 +572,10 @@ problem_mapping = {
             "Python: matrix_rotation.py": {
                 "passed": 0,
                 "total": 51
+            },
+            "Javascript: matrix_rotation.js": {
+                "passed": 0,
+                "total": 51
             }
         },
         "5.20 Compute rows in Pascal's Triangle": {
@@ -460,6 +588,10 @@ problem_mapping = {
                 "total": 35
             },
             "Python: pascal_triangle.py": {
+                "passed": 0,
+                "total": 35
+            },
+            "Javascript: pascal_triangle.js": {
                 "passed": 0,
                 "total": 35
             }
@@ -478,6 +610,10 @@ problem_mapping = {
             "Python: is_string_palindromic.py": {
                 "passed": 0,
                 "total": 10000
+            },
+            "Javascript: is_string_palindromic.js": {
+                "passed": 0,
+                "total": 10000
             }
         },
         "6.01 Interconvert strings and integers": {
@@ -490,6 +626,10 @@ problem_mapping = {
                 "total": 15002
             },
             "Python: string_integer_interconversion.py": {
+                "passed": 0,
+                "total": 15002
+            },
+            "Javascript: string_integer_interconversion.js": {
                 "passed": 0,
                 "total": 15002
             }
@@ -506,6 +646,10 @@ problem_mapping = {
             "Python: convert_base.py": {
                 "passed": 0,
                 "total": 20001
+            },
+            "Javascript: convert_base.js": {
+                "passed": 0,
+                "total": 20001
             }
         },
         "6.03 Compute the spreadsheet column encoding": {
@@ -518,6 +662,10 @@ problem_mapping = {
                 "total": 10000
             },
             "Python: spreadsheet_encoding.py": {
+                "passed": 0,
+                "total": 10000
+            },
+            "Javascript: spreadsheet_encoding.js": {
                 "passed": 0,
                 "total": 10000
             }
@@ -534,6 +682,10 @@ problem_mapping = {
             "Python: replace_and_remove.py": {
                 "passed": 0,
                 "total": 501
+            },
+            "Javascript: replace_and_remove.js": {
+                "passed": 0,
+                "total": 501
             }
         },
         "6.05 Test palindromicity": {
@@ -546,6 +698,10 @@ problem_mapping = {
                 "total": 305
             },
             "Python: is_string_palindromic_punctuation.py": {
+                "passed": 0,
+                "total": 305
+            },
+            "Javascript: is_string_palindromic_punctuation.js": {
                 "passed": 0,
                 "total": 305
             }
@@ -562,6 +718,10 @@ problem_mapping = {
             "Python: reverse_words.py": {
                 "passed": 0,
                 "total": 103
+            },
+            "Javascript: reverse_words.js": {
+                "passed": 0,
+                "total": 103
             }
         },
         "6.07 The look-and-say problem": {
@@ -574,6 +734,10 @@ problem_mapping = {
                 "total": 40
             },
             "Python: look_and_say.py": {
+                "passed": 0,
+                "total": 40
+            },
+            "Javascript: look_and_say.js": {
                 "passed": 0,
                 "total": 40
             }
@@ -590,6 +754,10 @@ problem_mapping = {
             "Python: roman_to_integer.py": {
                 "passed": 0,
                 "total": 3999
+            },
+            "Javascript: roman_to_integer.js": {
+                "passed": 0,
+                "total": 3999
             }
         },
         "6.09 Compute all valid IP addresses": {
@@ -602,6 +770,10 @@ problem_mapping = {
                 "total": 10008
             },
             "Python: valid_ip_addresses.py": {
+                "passed": 0,
+                "total": 10008
+            },
+            "Javascript: valid_ip_addresses.js": {
                 "passed": 0,
                 "total": 10008
             }
@@ -618,6 +790,10 @@ problem_mapping = {
             "Python: snake_string.py": {
                 "passed": 0,
                 "total": 500
+            },
+            "Javascript: snake_string.js": {
+                "passed": 0,
+                "total": 500
             }
         },
         "6.11 Implement run-length encoding": {
@@ -632,6 +808,10 @@ problem_mapping = {
             "Python: run_length_compression.py": {
                 "passed": 0,
                 "total": 200
+            },
+            "Javascript: run_length_compression.js": {
+                "passed": 0,
+                "total": 200
             }
         },
         "6.12 Find the first occurrence of a substring": {
@@ -644,6 +824,10 @@ problem_mapping = {
                 "total": 835
             },
             "Python: substring_match.py": {
+                "passed": 0,
+                "total": 835
+            },
+            "Javascript: substring_match.js": {
                 "passed": 0,
                 "total": 835
             }
@@ -686,6 +870,10 @@ problem_mapping = {
             "Python: search_in_list.py": {
                 "passed": 0,
                 "total": 505
+            },
+            "Javascript: search_in_list.js": {
+                "passed": 0,
+                "total": 505
             }
         },
         "7.01 Merge two sorted lists": {
@@ -698,6 +886,10 @@ problem_mapping = {
                 "total": 501
             },
             "Python: sorted_lists_merge.py": {
+                "passed": 0,
+                "total": 501
+            },
+            "Javascript: sorted_lists_merge.js": {
                 "passed": 0,
                 "total": 501
             }
@@ -714,6 +906,10 @@ problem_mapping = {
             "Python: reverse_sublist.py": {
                 "passed": 0,
                 "total": 210
+            },
+            "Javascript: reverse_sublist.js": {
+                "passed": 0,
+                "total": 210
             }
         },
         "7.03 Test for cyclicity": {
@@ -726,6 +922,10 @@ problem_mapping = {
                 "total": 102
             },
             "Python: is_list_cyclic.py": {
+                "passed": 0,
+                "total": 102
+            },
+            "Javascript: is_list_cyclic.js": {
                 "passed": 0,
                 "total": 102
             }
@@ -742,6 +942,10 @@ problem_mapping = {
             "Python: do_terminated_lists_overlap.py": {
                 "passed": 0,
                 "total": 106
+            },
+            "Javascript: do_terminated_lists_overlap.js": {
+                "passed": 0,
+                "total": 106
             }
         },
         "7.05 Test for overlapping lists---lists may have cycles": {
@@ -754,6 +958,10 @@ problem_mapping = {
                 "total": 120
             },
             "Python: do_lists_overlap.py": {
+                "passed": 0,
+                "total": 120
+            },
+            "Javascript: do_lists_overlap.js": {
                 "passed": 0,
                 "total": 120
             }
@@ -770,6 +978,10 @@ problem_mapping = {
             "Python: delete_node_from_list.py": {
                 "passed": 0,
                 "total": 512
+            },
+            "Javascript: delete_node_from_list.js": {
+                "passed": 0,
+                "total": 512
             }
         },
         "7.07 Remove the kth last element from a list": {
@@ -782,6 +994,10 @@ problem_mapping = {
                 "total": 306
             },
             "Python: delete_kth_last_from_list.py": {
+                "passed": 0,
+                "total": 306
+            },
+            "Javascript: delete_kth_last_from_list.js": {
                 "passed": 0,
                 "total": 306
             }
@@ -798,6 +1014,10 @@ problem_mapping = {
             "Python: remove_duplicates_from_sorted_list.py": {
                 "passed": 0,
                 "total": 203
+            },
+            "Javascript: remove_duplicates_from_sorted_list.js": {
+                "passed": 0,
+                "total": 203
             }
         },
         "7.09 Implement cyclic right shift for singly linked lists": {
@@ -810,6 +1030,10 @@ problem_mapping = {
                 "total": 507
             },
             "Python: list_cyclic_right_shift.py": {
+                "passed": 0,
+                "total": 507
+            },
+            "Javascript: list_cyclic_right_shift.js": {
                 "passed": 0,
                 "total": 507
             }
@@ -826,6 +1050,10 @@ problem_mapping = {
             "Python: even_odd_list_merge.py": {
                 "passed": 0,
                 "total": 1015
+            },
+            "Javascript: even_odd_list_merge.js": {
+                "passed": 0,
+                "total": 1015
             }
         },
         "7.11 Test whether a singly linked list is palindromic": {
@@ -838,6 +1066,10 @@ problem_mapping = {
                 "total": 203
             },
             "Python: is_list_palindromic.py": {
+                "passed": 0,
+                "total": 203
+            },
+            "Javascript: is_list_palindromic.js": {
                 "passed": 0,
                 "total": 203
             }
@@ -854,6 +1086,10 @@ problem_mapping = {
             "Python: pivot_list.py": {
                 "passed": 0,
                 "total": 208
+            },
+            "Javascript: pivot_list.js": {
+                "passed": 0,
+                "total": 208
             }
         },
         "7.13 Add list-based integers": {
@@ -866,6 +1102,10 @@ problem_mapping = {
                 "total": 2002
             },
             "Python: int_as_list_add.py": {
+                "passed": 0,
+                "total": 2002
+            },
+            "Javascript: int_as_list_add.js": {
                 "passed": 0,
                 "total": 2002
             }
@@ -884,6 +1124,10 @@ problem_mapping = {
             "Python: stack_with_max.py": {
                 "passed": 0,
                 "total": 101
+            },
+            "Javascript: stack_with_max.js": {
+                "passed": 0,
+                "total": 101
             }
         },
         "8.02 Evaluate RPN expressions": {
@@ -896,6 +1140,10 @@ problem_mapping = {
                 "total": 108
             },
             "Python: evaluate_rpn.py": {
+                "passed": 0,
+                "total": 108
+            },
+            "Javascript: evaluate_rpn.js": {
                 "passed": 0,
                 "total": 108
             }
@@ -912,6 +1160,10 @@ problem_mapping = {
             "Python: is_valid_parenthesization.py": {
                 "passed": 0,
                 "total": 78
+            },
+            "Javascript: is_valid_parenthesization.js": {
+                "passed": 0,
+                "total": 78
             }
         },
         "8.04 Normalize pathnames": {
@@ -924,6 +1176,10 @@ problem_mapping = {
                 "total": 255
             },
             "Python: directory_path_normalization.py": {
+                "passed": 0,
+                "total": 255
+            },
+            "Javascript: directory_path_normalization.js": {
                 "passed": 0,
                 "total": 255
             }
@@ -940,6 +1196,10 @@ problem_mapping = {
             "Python: sunset_view.py": {
                 "passed": 0,
                 "total": 101
+            },
+            "Javascript: sunset_view.js": {
+                "passed": 0,
+                "total": 101
             }
         },
         "8.06 Compute binary tree nodes in order of increasing depth": {
@@ -952,6 +1212,10 @@ problem_mapping = {
                 "total": 3852
             },
             "Python: tree_level_order.py": {
+                "passed": 0,
+                "total": 3852
+            },
+            "Javascript: tree_level_order.js": {
                 "passed": 0,
                 "total": 3852
             }
@@ -968,6 +1232,10 @@ problem_mapping = {
             "Python: circular_queue.py": {
                 "passed": 0,
                 "total": 65
+            },
+            "Javascript: circular_queue.js": {
+                "passed": 0,
+                "total": 65
             }
         },
         "8.08 Implement a queue using stacks": {
@@ -982,6 +1250,10 @@ problem_mapping = {
             "Python: queue_from_stacks.py": {
                 "passed": 0,
                 "total": 65
+            },
+            "Javascript: queue_from_stacks.js": {
+                "passed": 0,
+                "total": 65
             }
         },
         "8.09 Implement a queue with max API": {
@@ -994,6 +1266,10 @@ problem_mapping = {
                 "total": 201
             },
             "Python: queue_with_max.py": {
+                "passed": 0,
+                "total": 201
+            },
+            "Javascript: queue_with_max.js": {
                 "passed": 0,
                 "total": 201
             }
@@ -1012,6 +1288,10 @@ problem_mapping = {
             "Python: is_tree_balanced.py": {
                 "passed": 0,
                 "total": 3852
+            },
+            "Javascript: is_tree_balanced.js": {
+                "passed": 0,
+                "total": 3852
             }
         },
         "9.02 Test if a binary tree is symmetric": {
@@ -1024,6 +1304,10 @@ problem_mapping = {
                 "total": 3852
             },
             "Python: is_tree_symmetric.py": {
+                "passed": 0,
+                "total": 3852
+            },
+            "Javascript: is_tree_symmetric.js": {
                 "passed": 0,
                 "total": 3852
             }
@@ -1040,6 +1324,10 @@ problem_mapping = {
             "Python: lowest_common_ancestor.py": {
                 "passed": 0,
                 "total": 948
+            },
+            "Javascript: lowest_common_ancestor.js": {
+                "passed": 0,
+                "total": 948
             }
         },
         "9.04 Compute the LCA when nodes have parent pointers": {
@@ -1052,6 +1340,10 @@ problem_mapping = {
                 "total": 948
             },
             "Python: lowest_common_ancestor_with_parent.py": {
+                "passed": 0,
+                "total": 948
+            },
+            "Javascript: lowest_common_ancestor_with_parent.js": {
                 "passed": 0,
                 "total": 948
             }
@@ -1068,6 +1360,10 @@ problem_mapping = {
             "Python: sum_root_to_leaf.py": {
                 "passed": 0,
                 "total": 3849
+            },
+            "Javascript: sum_root_to_leaf.js": {
+                "passed": 0,
+                "total": 3849
             }
         },
         "9.06 Find a root to leaf path with specified sum": {
@@ -1080,6 +1376,10 @@ problem_mapping = {
                 "total": 7690
             },
             "Python: path_sum.py": {
+                "passed": 0,
+                "total": 7690
+            },
+            "Javascript: path_sum.js": {
                 "passed": 0,
                 "total": 7690
             }
@@ -1096,6 +1396,10 @@ problem_mapping = {
             "Python: tree_inorder.py": {
                 "passed": 0,
                 "total": 3852
+            },
+            "Javascript: tree_inorder.js": {
+                "passed": 0,
+                "total": 3852
             }
         },
         "9.08 Compute the kth node in an inorder traversal": {
@@ -1108,6 +1412,10 @@ problem_mapping = {
                 "total": 3851
             },
             "Python: kth_node_in_tree.py": {
+                "passed": 0,
+                "total": 3851
+            },
+            "Javascript: kth_node_in_tree.js": {
                 "passed": 0,
                 "total": 3851
             }
@@ -1124,6 +1432,10 @@ problem_mapping = {
             "Python: successor_in_tree.py": {
                 "passed": 0,
                 "total": 948
+            },
+            "Javascript: successor_in_tree.js": {
+                "passed": 0,
+                "total": 948
             }
         },
         "9.10 Implement an inorder traversal with constant space": {
@@ -1136,6 +1448,10 @@ problem_mapping = {
                 "total": 3852
             },
             "Python: tree_with_parent_inorder.py": {
+                "passed": 0,
+                "total": 3852
+            },
+            "Javascript: tree_with_parent_inorder.js": {
                 "passed": 0,
                 "total": 3852
             }
@@ -1152,6 +1468,10 @@ problem_mapping = {
             "Python: tree_from_preorder_inorder.py": {
                 "passed": 0,
                 "total": 3852
+            },
+            "Javascript: tree_from_preorder_inorder.js": {
+                "passed": 0,
+                "total": 3852
             }
         },
         "9.12 Reconstruct a binary tree from a preorder traversal with markers": {
@@ -1164,6 +1484,10 @@ problem_mapping = {
                 "total": 3852
             },
             "Python: tree_from_preorder_with_null.py": {
+                "passed": 0,
+                "total": 3852
+            },
+            "Javascript: tree_from_preorder_with_null.js": {
                 "passed": 0,
                 "total": 3852
             }
@@ -1180,6 +1504,10 @@ problem_mapping = {
             "Python: tree_connect_leaves.py": {
                 "passed": 0,
                 "total": 3852
+            },
+            "Javascript: tree_connect_leaves.js": {
+                "passed": 0,
+                "total": 3852
             }
         },
         "9.14 Compute the exterior of a binary tree": {
@@ -1194,6 +1522,10 @@ problem_mapping = {
             "Python: tree_exterior.py": {
                 "passed": 0,
                 "total": 3852
+            },
+            "Javascript: tree_exterior.js": {
+                "passed": 0,
+                "total": 3852
             }
         },
         "9.15 Compute the right sibling tree": {
@@ -1206,6 +1538,10 @@ problem_mapping = {
                 "total": 10
             },
             "Python: tree_right_sibling.py": {
+                "passed": 0,
+                "total": 10
+            },
+            "Javascript: tree_right_sibling.js": {
                 "passed": 0,
                 "total": 10
             }
@@ -1224,6 +1560,10 @@ problem_mapping = {
             "Python: sorted_arrays_merge.py": {
                 "passed": 0,
                 "total": 152
+            },
+            "Javascript: sorted_arrays_merge.js": {
+                "passed": 0,
+                "total": 152
             }
         },
         "10.02 Sort an increasing-decreasing array": {
@@ -1236,6 +1576,10 @@ problem_mapping = {
                 "total": 203
             },
             "Python: sort_increasing_decreasing_array.py": {
+                "passed": 0,
+                "total": 203
+            },
+            "Javascript: sort_increasing_decreasing_array.js": {
                 "passed": 0,
                 "total": 203
             }
@@ -1252,6 +1596,10 @@ problem_mapping = {
             "Python: sort_almost_sorted_array.py": {
                 "passed": 0,
                 "total": 101
+            },
+            "Javascript: sort_almost_sorted_array.js": {
+                "passed": 0,
+                "total": 101
             }
         },
         "10.04 Compute the k closest stars": {
@@ -1264,6 +1612,10 @@ problem_mapping = {
                 "total": 51
             },
             "Python: k_closest_stars.py": {
+                "passed": 0,
+                "total": 51
+            },
+            "Javascript: k_closest_stars.js": {
                 "passed": 0,
                 "total": 51
             }
@@ -1280,6 +1632,10 @@ problem_mapping = {
             "Python: online_median.py": {
                 "passed": 0,
                 "total": 55
+            },
+            "Javascript: online_median.js": {
+                "passed": 0,
+                "total": 55
             }
         },
         "10.06 Compute the k largest elements in a max-heap": {
@@ -1292,6 +1648,10 @@ problem_mapping = {
                 "total": 102
             },
             "Python: k_largest_in_heap.py": {
+                "passed": 0,
+                "total": 102
+            },
+            "Javascript: k_largest_in_heap.js": {
                 "passed": 0,
                 "total": 102
             }
@@ -1310,6 +1670,10 @@ problem_mapping = {
             "Python: search_first_key.py": {
                 "passed": 0,
                 "total": 314
+            },
+            "Javascript: search_first_key.js": {
+                "passed": 0,
+                "total": 314
             }
         },
         "11.02 Search a sorted array for entry equal to its index": {
@@ -1322,6 +1686,10 @@ problem_mapping = {
                 "total": 501
             },
             "Python: search_entry_equal_to_index.py": {
+                "passed": 0,
+                "total": 501
+            },
+            "Javascript: search_entry_equal_to_index.js": {
                 "passed": 0,
                 "total": 501
             }
@@ -1338,6 +1706,10 @@ problem_mapping = {
             "Python: search_shifted_sorted_array.py": {
                 "passed": 0,
                 "total": 307
+            },
+            "Javascript: search_shifted_sorted_array.js": {
+                "passed": 0,
+                "total": 307
             }
         },
         "11.04 Compute the integer square root": {
@@ -1350,6 +1722,10 @@ problem_mapping = {
                 "total": 2000
             },
             "Python: int_square_root.py": {
+                "passed": 0,
+                "total": 2000
+            },
+            "Javascript: int_square_root.js": {
                 "passed": 0,
                 "total": 2000
             }
@@ -1366,6 +1742,10 @@ problem_mapping = {
             "Python: real_square_root.py": {
                 "passed": 0,
                 "total": 11003
+            },
+            "Javascript: real_square_root.js": {
+                "passed": 0,
+                "total": 11003
             }
         },
         "11.06 Search in a 2D sorted array": {
@@ -1378,6 +1758,10 @@ problem_mapping = {
                 "total": 194
             },
             "Python: search_row_col_sorted_matrix.py": {
+                "passed": 0,
+                "total": 194
+            },
+            "Javascript: search_row_col_sorted_matrix.js": {
                 "passed": 0,
                 "total": 194
             }
@@ -1394,6 +1778,10 @@ problem_mapping = {
             "Python: search_for_min_max_in_array.py": {
                 "passed": 0,
                 "total": 501
+            },
+            "Javascript: search_for_min_max_in_array.js": {
+                "passed": 0,
+                "total": 501
             }
         },
         "11.08 Find the kth largest element": {
@@ -1406,6 +1794,10 @@ problem_mapping = {
                 "total": 503
             },
             "Python: kth_largest_in_array.py": {
+                "passed": 0,
+                "total": 503
+            },
+            "Javascript: kth_largest_in_array.js": {
                 "passed": 0,
                 "total": 503
             }
@@ -1422,6 +1814,10 @@ problem_mapping = {
             "Python: absent_value_array.py": {
                 "passed": 0,
                 "total": 100
+            },
+            "Javascript: absent_value_array.js": {
+                "passed": 0,
+                "total": 100
             }
         },
         "11.10 Find the duplicate and missing elements": {
@@ -1434,6 +1830,10 @@ problem_mapping = {
                 "total": 50
             },
             "Python: search_for_missing_element.py": {
+                "passed": 0,
+                "total": 50
+            },
+            "Javascript: search_for_missing_element.js": {
                 "passed": 0,
                 "total": 50
             }
@@ -1452,6 +1852,10 @@ problem_mapping = {
             "Python: anagrams.py": {
                 "passed": 0,
                 "total": 9
+            },
+            "Javascript: anagrams.js": {
+                "passed": 0,
+                "total": 9
             }
         },
         "12.01 Test for palindromic permutations": {
@@ -1464,6 +1868,10 @@ problem_mapping = {
                 "total": 305
             },
             "Python: is_string_permutable_to_palindrome.py": {
+                "passed": 0,
+                "total": 305
+            },
+            "Javascript: is_string_permutable_to_palindrome.js": {
                 "passed": 0,
                 "total": 305
             }
@@ -1480,6 +1888,10 @@ problem_mapping = {
             "Python: is_anonymous_letter_constructible.py": {
                 "passed": 0,
                 "total": 212
+            },
+            "Javascript: is_anonymous_letter_constructible.js": {
+                "passed": 0,
+                "total": 212
             }
         },
         "12.03 Implement an ISBN cache": {
@@ -1492,6 +1904,10 @@ problem_mapping = {
                 "total": 101
             },
             "Python: lru_cache.py": {
+                "passed": 0,
+                "total": 101
+            },
+            "Javascript: lru_cache.js": {
                 "passed": 0,
                 "total": 101
             }
@@ -1508,6 +1924,10 @@ problem_mapping = {
             "Python: lowest_common_ancestor_close_ancestor.py": {
                 "passed": 0,
                 "total": 948
+            },
+            "Javascript: lowest_common_ancestor_close_ancestor.js": {
+                "passed": 0,
+                "total": 948
             }
         },
         "12.05 Find the nearest repeated entries in an array": {
@@ -1520,6 +1940,10 @@ problem_mapping = {
                 "total": 505
             },
             "Python: nearest_repeated_entries.py": {
+                "passed": 0,
+                "total": 505
+            },
+            "Javascript: nearest_repeated_entries.js": {
                 "passed": 0,
                 "total": 505
             }
@@ -1536,6 +1960,10 @@ problem_mapping = {
             "Python: smallest_subarray_covering_set.py": {
                 "passed": 0,
                 "total": 904
+            },
+            "Javascript: smallest_subarray_covering_set.js": {
+                "passed": 0,
+                "total": 904
             }
         },
         "12.07 Find smallest subarray sequentially covering all values": {
@@ -1548,6 +1976,10 @@ problem_mapping = {
                 "total": 629
             },
             "Python: smallest_subarray_covering_all_values.py": {
+                "passed": 0,
+                "total": 629
+            },
+            "Javascript: smallest_subarray_covering_all_values.js": {
                 "passed": 0,
                 "total": 629
             }
@@ -1564,6 +1996,10 @@ problem_mapping = {
             "Python: longest_subarray_with_distinct_values.py": {
                 "passed": 0,
                 "total": 987
+            },
+            "Javascript: longest_subarray_with_distinct_values.js": {
+                "passed": 0,
+                "total": 987
             }
         },
         "12.09 Find the length of a longest contained interval": {
@@ -1576,6 +2012,10 @@ problem_mapping = {
                 "total": 203
             },
             "Python: longest_contained_interval.py": {
+                "passed": 0,
+                "total": 203
+            },
+            "Javascript: longest_contained_interval.js": {
                 "passed": 0,
                 "total": 203
             }
@@ -1592,6 +2032,10 @@ problem_mapping = {
             "Python: string_decompositions_into_dictionary_words.py": {
                 "passed": 0,
                 "total": 171
+            },
+            "Javascript: string_decompositions_into_dictionary_words.js": {
+                "passed": 0,
+                "total": 171
             }
         },
         "12.11 Test the Collatz conjecture": {
@@ -1604,6 +2048,10 @@ problem_mapping = {
                 "total": 7
             },
             "Python: collatz_checker.py": {
+                "passed": 0,
+                "total": 7
+            },
+            "Javascript: collatz_checker.js": {
                 "passed": 0,
                 "total": 7
             }
@@ -1622,6 +2070,10 @@ problem_mapping = {
             "Python: intersect_sorted_arrays.py": {
                 "passed": 0,
                 "total": 202
+            },
+            "Javascript: intersect_sorted_arrays.js": {
+                "passed": 0,
+                "total": 202
             }
         },
         "13.02 Merge two sorted arrays": {
@@ -1634,6 +2086,10 @@ problem_mapping = {
                 "total": 201
             },
             "Python: two_sorted_arrays_merge.py": {
+                "passed": 0,
+                "total": 201
+            },
+            "Javascript: two_sorted_arrays_merge.js": {
                 "passed": 0,
                 "total": 201
             }
@@ -1650,6 +2106,10 @@ problem_mapping = {
             "Python: h_index.py": {
                 "passed": 0,
                 "total": 1001
+            },
+            "Javascript: h_index.js": {
+                "passed": 0,
+                "total": 1001
             }
         },
         "13.04 Remove first-name duplicates": {
@@ -1662,6 +2122,10 @@ problem_mapping = {
                 "total": 202
             },
             "Python: remove_duplicates.py": {
+                "passed": 0,
+                "total": 202
+            },
+            "Javascript: remove_duplicates.js": {
                 "passed": 0,
                 "total": 202
             }
@@ -1678,6 +2142,10 @@ problem_mapping = {
             "Python: smallest_nonconstructible_value.py": {
                 "passed": 0,
                 "total": 308
+            },
+            "Javascript: smallest_nonconstructible_value.js": {
+                "passed": 0,
+                "total": 308
             }
         },
         "13.06 Render a calendar": {
@@ -1690,6 +2158,10 @@ problem_mapping = {
                 "total": 97
             },
             "Python: calendar_rendering.py": {
+                "passed": 0,
+                "total": 97
+            },
+            "Javascript: calendar_rendering.js": {
                 "passed": 0,
                 "total": 97
             }
@@ -1706,6 +2178,10 @@ problem_mapping = {
             "Python: interval_add.py": {
                 "passed": 0,
                 "total": 103
+            },
+            "Javascript: interval_add.js": {
+                "passed": 0,
+                "total": 103
             }
         },
         "13.08 Compute the union of intervals": {
@@ -1718,6 +2194,10 @@ problem_mapping = {
                 "total": 191
             },
             "Python: intervals_union.py": {
+                "passed": 0,
+                "total": 191
+            },
+            "Javascript: intervals_union.js": {
                 "passed": 0,
                 "total": 191
             }
@@ -1734,6 +2214,10 @@ problem_mapping = {
             "Python: group_equal_entries.py": {
                 "passed": 0,
                 "total": 33
+            },
+            "Javascript: group_equal_entries.js": {
+                "passed": 0,
+                "total": 33
             }
         },
         "13.10 Team photo day---1": {
@@ -1746,6 +2230,10 @@ problem_mapping = {
                 "total": 105
             },
             "Python: is_array_dominated.py": {
+                "passed": 0,
+                "total": 105
+            },
+            "Javascript: is_array_dominated.js": {
                 "passed": 0,
                 "total": 105
             }
@@ -1762,6 +2250,10 @@ problem_mapping = {
             "Python: sort_list.py": {
                 "passed": 0,
                 "total": 209
+            },
+            "Javascript: sort_list.js": {
+                "passed": 0,
+                "total": 209
             }
         },
         "13.12 Compute a salary threshold": {
@@ -1774,6 +2266,10 @@ problem_mapping = {
                 "total": 1005
             },
             "Python: find_salary_threshold.py": {
+                "passed": 0,
+                "total": 1005
+            },
+            "Javascript: find_salary_threshold.js": {
                 "passed": 0,
                 "total": 1005
             }
@@ -1792,6 +2288,10 @@ problem_mapping = {
             "Python: search_in_bst.py": {
                 "passed": 0,
                 "total": 955
+            },
+            "Javascript: search_in_bst.js": {
+                "passed": 0,
+                "total": 955
             }
         },
         "14.01 Test if a binary tree satisfies the BST property": {
@@ -1804,6 +2304,10 @@ problem_mapping = {
                 "total": 3139
             },
             "Python: is_tree_a_bst.py": {
+                "passed": 0,
+                "total": 3139
+            },
+            "Javascript: is_tree_a_bst.js": {
                 "passed": 0,
                 "total": 3139
             }
@@ -1820,6 +2324,10 @@ problem_mapping = {
             "Python: search_first_greater_value_in_bst.py": {
                 "passed": 0,
                 "total": 949
+            },
+            "Javascript: search_first_greater_value_in_bst.js": {
+                "passed": 0,
+                "total": 949
             }
         },
         "14.03 Find the k largest elements in a BST": {
@@ -1832,6 +2340,10 @@ problem_mapping = {
                 "total": 949
             },
             "Python: k_largest_values_in_bst.py": {
+                "passed": 0,
+                "total": 949
+            },
+            "Javascript: k_largest_values_in_bst.js": {
                 "passed": 0,
                 "total": 949
             }
@@ -1848,6 +2360,10 @@ problem_mapping = {
             "Python: lowest_common_ancestor_in_bst.py": {
                 "passed": 0,
                 "total": 951
+            },
+            "Javascript: lowest_common_ancestor_in_bst.js": {
+                "passed": 0,
+                "total": 951
             }
         },
         "14.05 Reconstruct a BST from traversal data": {
@@ -1860,6 +2376,10 @@ problem_mapping = {
                 "total": 950
             },
             "Python: bst_from_preorder.py": {
+                "passed": 0,
+                "total": 950
+            },
+            "Javascript: bst_from_preorder.js": {
                 "passed": 0,
                 "total": 950
             }
@@ -1876,6 +2396,10 @@ problem_mapping = {
             "Python: minimum_distance_3_sorted_arrays.py": {
                 "passed": 0,
                 "total": 51
+            },
+            "Javascript: minimum_distance_3_sorted_arrays.js": {
+                "passed": 0,
+                "total": 51
             }
         },
         "14.07 Enumerate extended integers": {
@@ -1888,6 +2412,10 @@ problem_mapping = {
                 "total": 13
             },
             "Python: a_b_sqrt2.py": {
+                "passed": 0,
+                "total": 13
+            },
+            "Javascript: a_b_sqrt2.js": {
                 "passed": 0,
                 "total": 13
             }
@@ -1904,6 +2432,10 @@ problem_mapping = {
             "Python: bst_from_sorted_array.py": {
                 "passed": 0,
                 "total": 87
+            },
+            "Javascript: bst_from_sorted_array.js": {
+                "passed": 0,
+                "total": 87
             }
         },
         "14.09 Test if three BST nodes are totally ordered": {
@@ -1916,6 +2448,10 @@ problem_mapping = {
                 "total": 958
             },
             "Python: descendant_and_ancestor_in_bst.py": {
+                "passed": 0,
+                "total": 958
+            },
+            "Javascript: descendant_and_ancestor_in_bst.js": {
                 "passed": 0,
                 "total": 958
             }
@@ -1932,6 +2468,10 @@ problem_mapping = {
             "Python: range_lookup_in_bst.py": {
                 "passed": 0,
                 "total": 954
+            },
+            "Javascript: range_lookup_in_bst.js": {
+                "passed": 0,
+                "total": 954
             }
         },
         "14.11 Add credits": {
@@ -1944,6 +2484,10 @@ problem_mapping = {
                 "total": 201
             },
             "Python: adding_credits.py": {
+                "passed": 0,
+                "total": 201
+            },
+            "Javascript: adding_credits.js": {
                 "passed": 0,
                 "total": 201
             }
@@ -1962,6 +2506,10 @@ problem_mapping = {
             "Python: euclidean_gcd.py": {
                 "passed": 0,
                 "total": 10034
+            },
+            "Javascript: euclidean_gcd.js": {
+                "passed": 0,
+                "total": 10034
             }
         },
         "15.01 The Towers of Hanoi problem": {
@@ -1974,6 +2522,10 @@ problem_mapping = {
                 "total": 10
             },
             "Python: hanoi.py": {
+                "passed": 0,
+                "total": 10
+            },
+            "Javascript: hanoi.js": {
                 "passed": 0,
                 "total": 10
             }
@@ -1990,6 +2542,10 @@ problem_mapping = {
             "Python: phone_number_mnemonic.py": {
                 "passed": 0,
                 "total": 102
+            },
+            "Javascript: phone_number_mnemonic.js": {
+                "passed": 0,
+                "total": 102
             }
         },
         "15.03 Generate all nonattacking placements of n-Queens": {
@@ -2002,6 +2558,10 @@ problem_mapping = {
                 "total": 10
             },
             "Python: n_queens.py": {
+                "passed": 0,
+                "total": 10
+            },
+            "Javascript: n_queens.js": {
                 "passed": 0,
                 "total": 10
             }
@@ -2018,6 +2578,10 @@ problem_mapping = {
             "Python: permutations.py": {
                 "passed": 0,
                 "total": 8
+            },
+            "Javascript: permutations.js": {
+                "passed": 0,
+                "total": 8
             }
         },
         "15.05 Generate the power set": {
@@ -2030,6 +2594,10 @@ problem_mapping = {
                 "total": 15
             },
             "Python: power_set.py": {
+                "passed": 0,
+                "total": 15
+            },
+            "Javascript: power_set.js": {
                 "passed": 0,
                 "total": 15
             }
@@ -2046,6 +2614,10 @@ problem_mapping = {
             "Python: combinations.py": {
                 "passed": 0,
                 "total": 120
+            },
+            "Javascript: combinations.js": {
+                "passed": 0,
+                "total": 120
             }
         },
         "15.07 Generate strings of matched parens": {
@@ -2058,6 +2630,10 @@ problem_mapping = {
                 "total": 11
             },
             "Python: enumerate_balanced_parentheses.py": {
+                "passed": 0,
+                "total": 11
+            },
+            "Javascript: enumerate_balanced_parentheses.js": {
                 "passed": 0,
                 "total": 11
             }
@@ -2074,6 +2650,10 @@ problem_mapping = {
             "Python: enumerate_palindromic_decompositions.py": {
                 "passed": 0,
                 "total": 522
+            },
+            "Javascript: enumerate_palindromic_decompositions.js": {
+                "passed": 0,
+                "total": 522
             }
         },
         "15.09 Generate binary trees": {
@@ -2086,6 +2666,10 @@ problem_mapping = {
                 "total": 10
             },
             "Python: enumerate_trees.py": {
+                "passed": 0,
+                "total": 10
+            },
+            "Javascript: enumerate_trees.js": {
                 "passed": 0,
                 "total": 10
             }
@@ -2102,6 +2686,10 @@ problem_mapping = {
             "Python: sudoku_solve.py": {
                 "passed": 0,
                 "total": 400
+            },
+            "Javascript: sudoku_solve.js": {
+                "passed": 0,
+                "total": 400
             }
         },
         "15.11 Compute a Gray code": {
@@ -2114,6 +2702,10 @@ problem_mapping = {
                 "total": 10
             },
             "Python: gray_code.py": {
+                "passed": 0,
+                "total": 10
+            },
+            "Javascript: gray_code.js": {
                 "passed": 0,
                 "total": 10
             }
@@ -2144,6 +2736,10 @@ problem_mapping = {
             "Python: max_sum_subarray.py": {
                 "passed": 0,
                 "total": 1001
+            },
+            "Javascript: max_sum_subarray.js": {
+                "passed": 0,
+                "total": 1001
             }
         },
         "16.01 Count the number of score combinations": {
@@ -2156,6 +2752,10 @@ problem_mapping = {
                 "total": 1003
             },
             "Python: number_of_score_combinations.py": {
+                "passed": 0,
+                "total": 1003
+            },
+            "Javascript: number_of_score_combinations.js": {
                 "passed": 0,
                 "total": 1003
             }
@@ -2172,6 +2772,10 @@ problem_mapping = {
             "Python: levenshtein_distance.py": {
                 "passed": 0,
                 "total": 100
+            },
+            "Javascript: levenshtein_distance.js": {
+                "passed": 0,
+                "total": 100
             }
         },
         "16.03 Count the number of ways to traverse a 2D array": {
@@ -2184,6 +2788,10 @@ problem_mapping = {
                 "total": 1775
             },
             "Python: number_of_traversals_matrix.py": {
+                "passed": 0,
+                "total": 1775
+            },
+            "Javascript: number_of_traversals_matrix.js": {
                 "passed": 0,
                 "total": 1775
             }
@@ -2200,6 +2808,10 @@ problem_mapping = {
             "Python: binomial_coefficients.py": {
                 "passed": 0,
                 "total": 5906
+            },
+            "Javascript: binomial_coefficients.js": {
+                "passed": 0,
+                "total": 5906
             }
         },
         "16.05 Search for a sequence in a 2D array": {
@@ -2212,6 +2824,10 @@ problem_mapping = {
                 "total": 186
             },
             "Python: is_string_in_matrix.py": {
+                "passed": 0,
+                "total": 186
+            },
+            "Javascript: is_string_in_matrix.js": {
                 "passed": 0,
                 "total": 186
             }
@@ -2228,6 +2844,10 @@ problem_mapping = {
             "Python: knapsack.py": {
                 "passed": 0,
                 "total": 100
+            },
+            "Javascript: knapsack.js": {
+                "passed": 0,
+                "total": 100
             }
         },
         "16.07 Building a search index for domains": {
@@ -2240,6 +2860,10 @@ problem_mapping = {
                 "total": 41
             },
             "Python: is_string_decomposable_into_words.py": {
+                "passed": 0,
+                "total": 41
+            },
+            "Javascript: is_string_decomposable_into_words.js": {
                 "passed": 0,
                 "total": 41
             }
@@ -2256,6 +2880,10 @@ problem_mapping = {
             "Python: minimum_weight_path_in_a_triangle.py": {
                 "passed": 0,
                 "total": 101
+            },
+            "Javascript: minimum_weight_path_in_a_triangle.js": {
+                "passed": 0,
+                "total": 101
             }
         },
         "16.09 Pick up coins for maximum gain": {
@@ -2268,6 +2896,10 @@ problem_mapping = {
                 "total": 162
             },
             "Python: picking_up_coins.py": {
+                "passed": 0,
+                "total": 162
+            },
+            "Javascript: picking_up_coins.js": {
                 "passed": 0,
                 "total": 162
             }
@@ -2284,6 +2916,10 @@ problem_mapping = {
             "Python: number_of_traversals_staircase.py": {
                 "passed": 0,
                 "total": 546
+            },
+            "Javascript: number_of_traversals_staircase.js": {
+                "passed": 0,
+                "total": 546
             }
         },
         "16.11 The pretty printing problem": {
@@ -2298,6 +2934,10 @@ problem_mapping = {
             "Python: pretty_printing.py": {
                 "passed": 0,
                 "total": 102
+            },
+            "Javascript: pretty_printing.js": {
+                "passed": 0,
+                "total": 102
             }
         },
         "16.12 Find the longest nondecreasing subsequence": {
@@ -2310,6 +2950,10 @@ problem_mapping = {
                 "total": 200
             },
             "Python: longest_nondecreasing_subsequence.py": {
+                "passed": 0,
+                "total": 200
+            },
+            "Javascript: longest_nondecreasing_subsequence.js": {
                 "passed": 0,
                 "total": 200
             }
@@ -2328,6 +2972,10 @@ problem_mapping = {
             "Python: making_change.py": {
                 "passed": 0,
                 "total": 49999
+            },
+            "Javascript: making_change.js": {
+                "passed": 0,
+                "total": 49999
             }
         },
         "17.01 Compute an optimum assignment of tasks": {
@@ -2342,6 +2990,10 @@ problem_mapping = {
             "Python: task_pairing.py": {
                 "passed": 0,
                 "total": 500
+            },
+            "Javascript: task_pairing.js": {
+                "passed": 0,
+                "total": 500
             }
         },
         "17.02 Schedule to minimize waiting time": {
@@ -2354,6 +3006,10 @@ problem_mapping = {
                 "total": 501
             },
             "Python: minimum_waiting_time.py": {
+                "passed": 0,
+                "total": 501
+            },
+            "Javascript: minimum_waiting_time.js": {
                 "passed": 0,
                 "total": 501
             }
@@ -2382,6 +3038,10 @@ problem_mapping = {
             "Python: two_sum.py": {
                 "passed": 0,
                 "total": 1005
+            },
+            "Javascript: two_sum.js": {
+                "passed": 0,
+                "total": 1005
             }
         },
         "17.04 The 3-sum problem": {
@@ -2394,6 +3054,10 @@ problem_mapping = {
                 "total": 1008
             },
             "Python: three_sum.py": {
+                "passed": 0,
+                "total": 1008
+            },
+            "Javascript: three_sum.js": {
                 "passed": 0,
                 "total": 1008
             }
@@ -2410,6 +3074,10 @@ problem_mapping = {
             "Python: majority_element.py": {
                 "passed": 0,
                 "total": 201
+            },
+            "Javascript: majority_element.js": {
+                "passed": 0,
+                "total": 201
             }
         },
         "17.06 The gasup problem": {
@@ -2422,6 +3090,10 @@ problem_mapping = {
                 "total": 202
             },
             "Python: refueling_schedule.py": {
+                "passed": 0,
+                "total": 202
+            },
+            "Javascript: refueling_schedule.js": {
                 "passed": 0,
                 "total": 202
             }
@@ -2438,6 +3110,10 @@ problem_mapping = {
             "Python: max_trapped_water.py": {
                 "passed": 0,
                 "total": 204
+            },
+            "Javascript: max_trapped_water.js": {
+                "passed": 0,
+                "total": 204
             }
         },
         "17.08 Compute the largest rectangle under the skyline": {
@@ -2450,6 +3126,10 @@ problem_mapping = {
                 "total": 1004
             },
             "Python: largest_rectangle_under_skyline.py": {
+                "passed": 0,
+                "total": 1004
+            },
+            "Javascript: largest_rectangle_under_skyline.js": {
                 "passed": 0,
                 "total": 1004
             }
@@ -2468,6 +3148,10 @@ problem_mapping = {
             "Python: search_maze.py": {
                 "passed": 0,
                 "total": 101
+            },
+            "Javascript: search_maze.js": {
+                "passed": 0,
+                "total": 101
             }
         },
         "18.02 Paint a Boolean matrix": {
@@ -2480,6 +3164,10 @@ problem_mapping = {
                 "total": 50
             },
             "Python: matrix_connected_regions.py": {
+                "passed": 0,
+                "total": 50
+            },
+            "Javascript: matrix_connected_regions.js": {
                 "passed": 0,
                 "total": 50
             }
@@ -2496,6 +3184,10 @@ problem_mapping = {
             "Python: matrix_enclosed_regions.py": {
                 "passed": 0,
                 "total": 51
+            },
+            "Javascript: matrix_enclosed_regions.js": {
+                "passed": 0,
+                "total": 51
             }
         },
         "18.04 Deadlock detection": {
@@ -2508,6 +3200,10 @@ problem_mapping = {
                 "total": 71
             },
             "Python: deadlock_detection.py": {
+                "passed": 0,
+                "total": 71
+            },
+            "Javascript: deadlock_detection.js": {
                 "passed": 0,
                 "total": 71
             }
@@ -2524,6 +3220,10 @@ problem_mapping = {
             "Python: graph_clone.py": {
                 "passed": 0,
                 "total": 91
+            },
+            "Javascript: graph_clone.js": {
+                "passed": 0,
+                "total": 91
             }
         },
         "18.06 Making wired connections": {
@@ -2536,6 +3236,10 @@ problem_mapping = {
                 "total": 85
             },
             "Python: is_circuit_wirable.py": {
+                "passed": 0,
+                "total": 85
+            },
+            "Javascript: is_circuit_wirable.js": {
                 "passed": 0,
                 "total": 85
             }
@@ -2552,6 +3256,10 @@ problem_mapping = {
             "Python: string_transformability.py": {
                 "passed": 0,
                 "total": 48
+            },
+            "Javascript: string_transformability.js": {
+                "passed": 0,
+                "total": 48
             }
         },
         "18.08 Team photo day---2": {
@@ -2564,6 +3272,10 @@ problem_mapping = {
                 "total": 69
             },
             "Python: max_teams_in_photograph.py": {
+                "passed": 0,
+                "total": 69
+            },
+            "Javascript: max_teams_in_photograph.js": {
                 "passed": 0,
                 "total": 69
             }
@@ -2582,6 +3294,10 @@ problem_mapping = {
             "Python: gcd.py": {
                 "passed": 0,
                 "total": 10034
+            },
+            "Javascript: gcd.js": {
+                "passed": 0,
+                "total": 10034
             }
         },
         "24.02 Find the first missing positive entry": {
@@ -2594,6 +3310,10 @@ problem_mapping = {
                 "total": 1001
             },
             "Python: first_missing_positive_entry.py": {
+                "passed": 0,
+                "total": 1001
+            },
+            "Javascript: first_missing_positive_entry.js": {
                 "passed": 0,
                 "total": 1001
             }
@@ -2610,6 +3330,10 @@ problem_mapping = {
             "Python: buy_and_sell_stock_k_times.py": {
                 "passed": 0,
                 "total": 201
+            },
+            "Javascript: buy_and_sell_stock_k_times.js": {
+                "passed": 0,
+                "total": 201
             }
         },
         "24.04 Compute the maximum product of all entries but one": {
@@ -2622,6 +3346,10 @@ problem_mapping = {
                 "total": 35
             },
             "Python: max_product_all_but_one.py": {
+                "passed": 0,
+                "total": 35
+            },
+            "Javascript: max_product_all_but_one.js": {
                 "passed": 0,
                 "total": 35
             }
@@ -2638,6 +3366,10 @@ problem_mapping = {
             "Python: longest_increasing_subarray.py": {
                 "passed": 0,
                 "total": 100
+            },
+            "Javascript: longest_increasing_subarray.js": {
+                "passed": 0,
+                "total": 100
             }
         },
         "24.06 Rotate an array": {
@@ -2650,6 +3382,10 @@ problem_mapping = {
                 "total": 101
             },
             "Python: rotate_array.py": {
+                "passed": 0,
+                "total": 101
+            },
+            "Javascript: rotate_array.js": {
                 "passed": 0,
                 "total": 101
             }
@@ -2666,6 +3402,10 @@ problem_mapping = {
             "Python: rook_attack.py": {
                 "passed": 0,
                 "total": 201
+            },
+            "Javascript: rook_attack.js": {
+                "passed": 0,
+                "total": 201
             }
         },
         "24.08 Justify text": {
@@ -2678,6 +3418,10 @@ problem_mapping = {
                 "total": 30
             },
             "Python: left_right_justify_text.py": {
+                "passed": 0,
+                "total": 30
+            },
+            "Javascript: left_right_justify_text.js": {
                 "passed": 0,
                 "total": 30
             }
@@ -2694,6 +3438,10 @@ problem_mapping = {
             "Python: zip_list.py": {
                 "passed": 0,
                 "total": 51
+            },
+            "Javascript: zip_list.js": {
+                "passed": 0,
+                "total": 51
             }
         },
         "24.10 Copy a postings list": {
@@ -2706,6 +3454,10 @@ problem_mapping = {
                 "total": 34
             },
             "Python: copy_posting_list.py": {
+                "passed": 0,
+                "total": 34
+            },
+            "Javascript: copy_posting_list.js": {
                 "passed": 0,
                 "total": 34
             }
@@ -2722,6 +3474,10 @@ problem_mapping = {
             "Python: longest_substring_with_matching_parentheses.py": {
                 "passed": 0,
                 "total": 342
+            },
+            "Javascript: longest_substring_with_matching_parentheses.js": {
+                "passed": 0,
+                "total": 342
             }
         },
         "24.12 Compute the maximum of a sliding window": {
@@ -2734,6 +3490,10 @@ problem_mapping = {
                 "total": 149
             },
             "Python: max_of_sliding_window.py": {
+                "passed": 0,
+                "total": 149
+            },
+            "Javascript: max_of_sliding_window.js": {
                 "passed": 0,
                 "total": 149
             }
@@ -2750,6 +3510,10 @@ problem_mapping = {
             "Python: bonus.py": {
                 "passed": 0,
                 "total": 106
+            },
+            "Javascript: bonus.js": {
+                "passed": 0,
+                "total": 106
             }
         },
         "24.14 Search a sorted array of unknown length": {
@@ -2762,6 +3526,10 @@ problem_mapping = {
                 "total": 206
             },
             "Python: search_unknown_length_array.py": {
+                "passed": 0,
+                "total": 206
+            },
+            "Javascript: search_unknown_length_array.js": {
                 "passed": 0,
                 "total": 206
             }
@@ -2778,6 +3546,10 @@ problem_mapping = {
             "Python: kth_largest_element_in_two_sorted_arrays.py": {
                 "passed": 0,
                 "total": 201
+            },
+            "Javascript: kth_largest_element_in_two_sorted_arrays.js": {
+                "passed": 0,
+                "total": 201
             }
         },
         "24.16 Find the kth largest element---large n, small k": {
@@ -2790,6 +3562,10 @@ problem_mapping = {
                 "total": 503
             },
             "Python: kth_largest_element_in_long_array.py": {
+                "passed": 0,
+                "total": 503
+            },
+            "Javascript: kth_largest_element_in_long_array.js": {
                 "passed": 0,
                 "total": 503
             }
@@ -2806,6 +3582,10 @@ problem_mapping = {
             "Python: element_appearing_once.py": {
                 "passed": 0,
                 "total": 102
+            },
+            "Javascript: element_appearing_once.js": {
+                "passed": 0,
+                "total": 102
             }
         },
         "24.18 Find the line through the most points": {
@@ -2818,6 +3598,10 @@ problem_mapping = {
                 "total": 282
             },
             "Python: line_through_most_points.py": {
+                "passed": 0,
+                "total": 282
+            },
+            "Javascript: line_through_most_points.js": {
                 "passed": 0,
                 "total": 282
             }
@@ -2834,6 +3618,10 @@ problem_mapping = {
             "Python: sorted_list_to_bst.py": {
                 "passed": 0,
                 "total": 100
+            },
+            "Javascript: sorted_list_to_bst.js": {
+                "passed": 0,
+                "total": 100
             }
         },
         "24.20 Convert a BST to a sorted doubly linked list": {
@@ -2846,6 +3634,10 @@ problem_mapping = {
                 "total": 950
             },
             "Python: bst_to_sorted_list.py": {
+                "passed": 0,
+                "total": 950
+            },
+            "Javascript: bst_to_sorted_list.js": {
                 "passed": 0,
                 "total": 950
             }
@@ -2862,6 +3654,10 @@ problem_mapping = {
             "Python: bst_merge.py": {
                 "passed": 0,
                 "total": 474
+            },
+            "Javascript: bst_merge.js": {
+                "passed": 0,
+                "total": 474
             }
         },
         "24.22 Implement regular expression matching": {
@@ -2874,6 +3670,10 @@ problem_mapping = {
                 "total": 1596
             },
             "Python: regular_expression.py": {
+                "passed": 0,
+                "total": 1596
+            },
+            "Javascript: regular_expression.js": {
                 "passed": 0,
                 "total": 1596
             }
@@ -2890,6 +3690,10 @@ problem_mapping = {
             "Python: insert_operators_in_string.py": {
                 "passed": 0,
                 "total": 101
+            },
+            "Javascript: insert_operators_in_string.js": {
+                "passed": 0,
+                "total": 101
             }
         },
         "24.24 Count inversions": {
@@ -2902,6 +3706,10 @@ problem_mapping = {
                 "total": 1001
             },
             "Python: count_inversions.py": {
+                "passed": 0,
+                "total": 1001
+            },
+            "Javascript: count_inversions.js": {
                 "passed": 0,
                 "total": 1001
             }
@@ -2918,6 +3726,10 @@ problem_mapping = {
             "Python: drawing_skyline.py": {
                 "passed": 0,
                 "total": 30
+            },
+            "Javascript: drawing_skyline.js": {
+                "passed": 0,
+                "total": 30
             }
         },
         "24.26 Measure with defective jugs": {
@@ -2930,6 +3742,10 @@ problem_mapping = {
                 "total": 200
             },
             "Python: defective_jugs.py": {
+                "passed": 0,
+                "total": 200
+            },
+            "Javascript: defective_jugs.js": {
                 "passed": 0,
                 "total": 200
             }
@@ -2946,6 +3762,10 @@ problem_mapping = {
             "Python: maximum_subarray_in_circular_array.py": {
                 "passed": 0,
                 "total": 501
+            },
+            "Javascript: maximum_subarray_in_circular_array.js": {
+                "passed": 0,
+                "total": 501
             }
         },
         "24.28 Determine the critical height": {
@@ -2958,6 +3778,10 @@ problem_mapping = {
                 "total": 3829
             },
             "Python: max_safe_height.py": {
+                "passed": 0,
+                "total": 3829
+            },
+            "Javascript: max_safe_height.js": {
                 "passed": 0,
                 "total": 3829
             }
@@ -2986,6 +3810,10 @@ problem_mapping = {
             "Python: max_submatrix.py": {
                 "passed": 0,
                 "total": 100
+            },
+            "Javascript: max_submatrix.js": {
+                "passed": 0,
+                "total": 100
             }
         },
         "24.30 Implement Huffman coding": {
@@ -2998,6 +3826,10 @@ problem_mapping = {
                 "total": 11
             },
             "Python: huffman_coding.py": {
+                "passed": 0,
+                "total": 11
+            },
+            "Javascript: huffman_coding.js": {
                 "passed": 0,
                 "total": 11
             }
@@ -3014,6 +3846,10 @@ problem_mapping = {
             "Python: max_water_trappable.py": {
                 "passed": 0,
                 "total": 1001
+            },
+            "Javascript: max_water_trappable.js": {
+                "passed": 0,
+                "total": 1001
             }
         },
         "24.32 The heavy hitter problem": {
@@ -3026,6 +3862,10 @@ problem_mapping = {
                 "total": 265
             },
             "Python: search_frequent_items.py": {
+                "passed": 0,
+                "total": 265
+            },
+            "Javascript: search_frequent_items.js": {
                 "passed": 0,
                 "total": 265
             }
@@ -3042,6 +3882,10 @@ problem_mapping = {
             "Python: longest_subarray_with_sum_constraint.py": {
                 "passed": 0,
                 "total": 102
+            },
+            "Javascript: longest_subarray_with_sum_constraint.js": {
+                "passed": 0,
+                "total": 102
             }
         },
         "24.34 Road network": {
@@ -3056,6 +3900,10 @@ problem_mapping = {
             "Python: road_network.py": {
                 "passed": 0,
                 "total": 50
+            },
+            "Javascript: road_network.js": {
+                "passed": 0,
+                "total": 50
             }
         },
         "24.35 Test if arbitrage is possible": {
@@ -3068,6 +3916,10 @@ problem_mapping = {
                 "total": 201
             },
             "Python: arbitrage.py": {
+                "passed": 0,
+                "total": 201
+            },
+            "Javascript: arbitrage.js": {
                 "passed": 0,
                 "total": 201
             }

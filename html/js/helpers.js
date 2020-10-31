@@ -80,7 +80,9 @@ function translateProblemMappings(data) {
             name: name,
             cpp: translateLanguageEntry('C++', 'epi_judge_cpp/', data),
             java: translateLanguageEntry('Java', 'epi_judge_java/epi/', data),
+            javascript: translateLanguageEntry('Javascript', 'epi_judge_javascript/', data),
             python: translateLanguageEntry('Python', 'epi_judge_python/', data)
+
         };
         if (result.cpp || result.java || result.python) {
             return result;
@@ -94,6 +96,7 @@ function translateProblemMappings(data) {
         let progress = {
             cpp: 0,
             java: 0,
+            javascript: 0,
             python: 0
         };
         for (let problem in chapter_data) {
@@ -106,6 +109,9 @@ function translateProblemMappings(data) {
                     }
                     if (result.java.passed === result.java.total) {
                         progress.java += 1;
+                    }
+                    if (result.javascript.passed === result.javascript.total) {
+                        progress.javascript += 1;
                     }
                     if (result.python.passed === result.python.total) {
                         progress.python += 1;
