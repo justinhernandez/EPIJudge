@@ -1,6 +1,10 @@
 const fs = require('fs');
 const path = require('path');
+const readline = require('readline');
+
 const testDataDir = path.resolve('../test_data');
+const mappingPrefix = 'problem_mapping = ';
+const problemMappings = path.resolve('../problem_mapping.js');
 
 class EPIJudgeTest {
   constructor(type, name, method) {
@@ -14,7 +18,38 @@ class EPIJudgeTest {
     this.name = name;
     this.method = method;
 
-    this.run();
+    this.init();
+  }
+
+  checkTest(input, expected) {
+    let passed = false;
+
+    // update result if no error is thrown
+    try {
+      const result = this.method.apply(null, input);
+      if (result === expected && typeof result === this.validateType) {
+        passed = true;
+      }
+    } catch (e) {
+      throw new Error(e);
+      passed = false;
+    }
+
+    return passed;
+  }
+
+  init() {
+    // load test data
+    this.loadTestData();
+
+    // switch based on test method type
+    switch (this.type) {
+      case 'generic':
+        this.testResults = this.testGenericMethod();
+        break;
+    }
+
+    this.updateTestResults();
   }
 
   loadTestData() {
@@ -51,33 +86,10 @@ class EPIJudgeTest {
     this.validateType = this.switchType(dataTypes[dataTypes.length - 1]);
   }
 
-  testGenericMethod() {
-    this.testData.map((t, i) => {
-      const testInput = t.slice(0, this.inputLength);
-      const testResult = t[this.inputLength];
-
-      // if test passes increment counter
-      if (this.checkTest(testInput, testResult) === true) {
-        this.testsPassed += 1;
-      }
-    });
-  }
-
-  checkTest(input, expected) {
-    let passed = false;
-
-    // update result if no error is thrown
-    try {
-      const result = this.method.apply(null, input);
-      if (result === expected && typeof result === this.validateType) {
-        passed = true;
-      }
-    } catch (e) {
-      throw new Error(e);
-      passed = false;
-    }
-
-    return passed;
+  outputCli(output) {
+    readline.cursorTo(process.stdout, 0);
+    // wrap with green and output
+    process.stdout.write(output);
   }
 
   switchType(type) {
@@ -90,20 +102,40 @@ class EPIJudgeTest {
     return type;
   }
 
-  updateTestResults() {}
+  testGenericMethod() {
+    const totalTests = this.testData.length;
+    this.testData.map((t, i) => {
+      const testInput = t.slice(0, this.inputLength);
+      const testResult = t[this.inputLength];
+      let feedback = `Test PASSED`;
 
-  run() {
-    // load test data
-    this.loadTestData();
+      // if test passes increment counter
+      if (this.checkTest(testInput, testResult) === true) {
+        this.testsPassed += 1;
+        feedback += ` (${this.testsPassed} / ${totalTests})`;
+        this.outputCli(feedback);
+      }
+    });
+  }
 
-    // switch based on test method type
-    switch (this.type) {
-      case 'generic':
-        this.testResults = this.testGenericMethod();
-        break;
+  updateTestResults() {
+    const findProblem = `Javascript: ${this.name}.js`;
+    let testMap = fs.readFileSync(problemMappings).toString();
+    // find test string
+    let updateString = `("Javascript: ${this.name}.js".+\n)`;
+    // find passed line, pull in space
+    updateString += `(.+"passed":) [0-9]+,\n`;
+    const updateRegex = new RegExp(updateString);
+    
+    // update test map
+    testMap = testMap.replace(updateRegex, `$1$2 ${this.testsPassed},\n`);
+    // update test map
+    fs.writeFileSync(problemMappings, testMap);
+
+    // check if all tests have passed
+    if (this.testsPassed === this.testData.length) {
+      console.log(`\n*** You've passed ALL tests. Congratulations! ***`);
     }
-
-    this.updateTestResults();
   }
 }
 
