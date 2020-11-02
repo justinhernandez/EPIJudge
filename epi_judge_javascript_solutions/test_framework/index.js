@@ -210,8 +210,9 @@ class EPIJudgeTest {
             } else if (isPassing === false) {
               // report error and break
               console.error('\n' + new Error('Test failed...'));
+              this.updateTestResults();
               // break looping on error
-              break;
+              process.exit(1);
             }
           }
           // reset tests
@@ -220,7 +221,7 @@ class EPIJudgeTest {
           // stop running tests after error
           console.error('\n' + new Error('Test timed out!!!'));
           // break on error
-          break;
+          process.exit(1);
         }
       }
     }
