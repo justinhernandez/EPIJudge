@@ -33,22 +33,23 @@ class EPIJudgeTest {
 
   checkTestWorker(tests) {
     return new Promise(async (resolve) => {
+      let results = [];
       // extend default test case
       let testCase = `${this.testMethod}`;
 
+      // add worker post message logic
+      testCase += "const { parentPort } = require('worker_threads')\n";
+      const collect = [];
       for (let j = 0; j < tests.length; j++) {
-        testCase += `console.log(${this.name}(${tests[j].input.join(',')}));`;
+        collect.push(`${this.name}(${tests[j].input.join(',')})`);
       }
-
+      testCase += `parentPort.postMessage([${collect.join(',')}])`;
       // update testfile with new test case
       fs.writeFileSync(this.testFile, testCase);
 
       // call test file via worker
       // context: we call tests via a worker in order to handle timeouts gracefully
-      const worker = new Worker(this.testFile, {
-        // suppres stdout
-        stdout: true,
-      });
+      const worker = new Worker(this.testFile);
       // little helper method that returns false for non passing test results
       const returnFalse = (response = false) => {
         worker.terminate();
@@ -59,20 +60,28 @@ class EPIJudgeTest {
       let testTimer = setTimeout(() => {
         returnFalse('timeout');
       }, testTimeout);
-      // test shouldn't exit or error, return false on these events
-      worker.on('error', returnFalse);
-
-      // collect console log results
-      let results = [];
-      worker.stdout.on('data', (result) => {
-        results.push(result.toString().trim());
+      // report error and return false
+      worker.on('error', (e) => {
+        console.error(e);
+        returnFalse();
       });
 
-      worker.on('exit', () => {
+      // update results with worker message
+      worker.on('message', (_results) => {
+        results = _results;
+      });
+
+      worker.on('exit', (code) => {
+        // if code has not exited gracefully then kill everything
+        if (code !== 0) {
+          process.exit(1);
+        }
+
         clearTimeout(testTimer);
         // turn results into booleans
         results = results.map((result, index) => {
           let valid = true;
+
           // if validation type is a number then attempt to parse the type
           if (this.validateType === 'number') {
             result =
