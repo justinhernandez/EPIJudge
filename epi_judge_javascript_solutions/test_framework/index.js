@@ -10,7 +10,6 @@ const { Worker } = require('worker_threads');
 const testTimeout = 3000;
 const testBatchThreshold = 1000;
 const testDataDir = path.resolve('../test_data');
-const mappingPrefix = 'problem_mapping = ';
 const problemFolder = path.resolve('./');
 const problemMappings = path.resolve('../problem_mapping.js');
 
@@ -31,9 +30,53 @@ class EPIJudgeTest {
     this.init();
   }
 
-  checkTestWorker(tests) {
+  async init() {
+    // load test data
+    this.loadTestData();
+    // load method that we want to test
+    this.loadTestMethod();
+    // write test case to test file so we can call it via a worker
+    this.testFile = await helpers.tempFile('null');
+
+    // switch based on test method type
+    switch (this.type) {
+      case 'generic':
+        this.testResults = await this.testGenericMethod();
+        break;
+    }
+
+    this.updateTestResults();
+  }
+
+  // filter tests that javascript is incapable of solving
+  // i.e. BigInt type problems
+  filterTests(tests) {
+    return tests.filter((t) => {
+      let shouldkeep = true;
+
+      t.input.forEach((i) => {
+        // check if i is a number AND
+        // if i converted to BigInt is greater than the max safe integer let's filter it out
+        if (
+          isNaN(parseInt(i)) === false &&
+          BigInt(i) > Number.MAX_SAFE_INTEGER
+        ) {
+          shouldkeep = false;
+        }
+      });
+
+      return shouldkeep;
+    });
+  }
+
+  checkTests(tests) {
     return new Promise(async (resolve) => {
       let results = [];
+      const oldTestLength = tests.length;
+      // filter out tests javascript can't handle
+      tests = this.filterTests(tests);
+      // calculate the filtered count and add the skipped tests to tests passed
+      this.testsPassed += oldTestLength - tests.length;
       // extend default test case
       let testCase = `${this.testMethod}`;
 
@@ -57,7 +100,7 @@ class EPIJudgeTest {
       };
 
       // start timer. return false if we hit the threshold timeout
-      let testTimer = setTimeout(() => {
+      const testTimer = setTimeout(() => {
         worker.terminate();
         returnFalse('timeout');
       }, testTimeout);
@@ -86,7 +129,7 @@ class EPIJudgeTest {
           // if validation type is a number then attempt to parse the type
           if (this.validateType === 'number') {
             result =
-              isNaN(parseInt(result)) == false ? parseInt(result) : undefined;
+              isNaN(parseInt(result)) === false ? parseInt(result) : undefined;
           }
           // if result does not equal expected
           // or not the expected data type then return false
@@ -104,24 +147,6 @@ class EPIJudgeTest {
         resolve(results);
       });
     });
-  }
-
-  async init() {
-    // load test data
-    this.loadTestData();
-    // load method that we want to test
-    this.loadTestMethod();
-    // write test case to test file so we can call it via a worker
-    this.testFile = await helpers.tempFile('null');
-
-    // switch based on test method type
-    switch (this.type) {
-      case 'generic':
-        this.testResults = await this.testGenericMethod();
-        break;
-    }
-
-    this.updateTestResults();
   }
 
   loadTestMethod() {
@@ -205,7 +230,7 @@ class EPIJudgeTest {
       // collect results and reset tests
       if (tests.length > testBatchThreshold || j === this.testData.length - 1) {
         // fetch results
-        const results = await this.checkTestWorker(tests);
+        const results = await this.checkTests(tests);
 
         // check results
         if (Array.isArray(results)) {
@@ -238,7 +263,6 @@ class EPIJudgeTest {
   }
 
   updateTestResults() {
-    const findProblem = `Javascript: ${this.name}.js`;
     let testMap = fs.readFileSync(problemMappings).toString();
     // find test string
     let updateString = `("Javascript: ${this.name}.js".+\n)`;
