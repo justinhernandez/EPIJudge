@@ -32,7 +32,7 @@ problem_mapping = {
                 "total": 10000
             },
             "Javascript: parity.js": {
-                "passed": 59,
+                "passed": 10000,
                 "total": 10000
             }
         },
