@@ -2,11 +2,12 @@ const test = require('./test_framework');
 test('generic', 'parity', parity);
 
 function parity(x) {
-  let result = 0;
+  x = BigInt(x);
+  let result = BigInt(0);
 
   while (x) {
-    result ^= x & 1;
-    x >>= 1;
+    x = x & (x - BigInt(1));
+    result ^= BigInt(1);
   }
 
   return result;
