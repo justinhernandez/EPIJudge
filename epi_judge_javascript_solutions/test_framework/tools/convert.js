@@ -2,7 +2,7 @@
 // and add javascript while keeping original formatting
 const mappings = require('./data/problem_mapping.old');
 function covertProblemMappings() {
-  let m = Object.assign({}, mappings);
+  const m = Object.assign({}, mappings);
 
   // iterate through chapters
   Object.keys(m).forEach((chapter) => {
