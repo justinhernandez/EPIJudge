@@ -1,0 +1,21 @@
+{
+  "name": "epi_judge_javascript",
+  "version": "0.0.1",
+  "description": "EPI Judge ported over to Javascript",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx eslint -c ./.eslintrc.js ../*.js ./*.js ./tools/*.js",
+    "prettier": "npx prettier --single-quote true --write ../*.js ./*.js ./tools/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
