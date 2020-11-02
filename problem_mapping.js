@@ -14,7 +14,7 @@ problem_mapping = {
                 "total": 10001
             },
             "Javascript: count_bits.js": {
-                "passed": 0,
+                "passed": 10001,
                 "total": 10001
             }
         },
@@ -28,11 +28,11 @@ problem_mapping = {
                 "total": 10000
             },
             "Python: parity.py": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             },
             "Javascript: parity.js": {
-                "passed": 0,
+                "passed": 59,
                 "total": 10000
             }
         },
