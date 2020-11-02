@@ -26,12 +26,12 @@ function tempFile(data = '') {
     fs.mkdtemp(tempFilePath, (err, folder) => {
       if (err) return reject(err);
 
-      const file_name = path.join(folder, name);
+      const fileName = path.join(folder, name);
 
-      fs.writeFile(file_name, data, 'utf8', (error_file) => {
-        if (error_file) return reject(error_file);
+      fs.writeFile(fileName, data, 'utf8', (errorFile) => {
+        if (errorFile) return reject(errorFile);
 
-        resolve(file_name);
+        resolve(fileName);
       });
     });
   });
