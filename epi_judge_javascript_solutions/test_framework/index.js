@@ -58,6 +58,7 @@ class EPIJudgeTest {
 
       // start timer. return false if we hit the threshold timeout
       let testTimer = setTimeout(() => {
+        worker.terminate();
         returnFalse('timeout');
       }, testTimeout);
       // report error and return false
