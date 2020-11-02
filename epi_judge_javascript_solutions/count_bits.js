@@ -1,5 +1,5 @@
 const test = require('./test_framework');
-
+test('generic', 'count_bits');
 
 function count_bits(x) {
   let num_bits = 0;
@@ -11,6 +11,3 @@ function count_bits(x) {
 
   return num_bits;
 }
-
-
-test('generic', 'count_bits', count_bits);
