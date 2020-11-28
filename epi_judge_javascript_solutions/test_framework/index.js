@@ -148,7 +148,8 @@ class EPIJudgeTest {
             }
           } else if (this.validateType === 'array') {
             if (
-              JSON.stringify(result) !== JSON.stringify(tests[index].expected) ||
+              JSON.stringify(result) !==
+                JSON.stringify(tests[index].expected) ||
               Array.isArray(result) === false
             ) {
               valid = false;
