@@ -212,7 +212,7 @@ problem_mapping = {
                 "total": 10000
             },
             "Javascript: rectangle_intersection.js": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             }
         }
