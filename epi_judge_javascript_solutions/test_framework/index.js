@@ -130,14 +130,29 @@ class EPIJudgeTest {
           if (this.validateType === 'number') {
             result =
               isNaN(parseInt(result)) === false ? parseInt(result) : undefined;
+          } else if (this.validateType === 'array') {
+            // convert tuple to array
+            tests[index].expected = JSON.parse(tests[index].expected);
           }
-          // if result does not equal expected
-          // or not the expected data type then return false
-          if (
-            result !== tests[index].expected ||
-            typeof result !== this.validateType
-          ) {
-            valid = false;
+
+          // validate
+          // check number
+          if (this.validateType === 'number') {
+            // if result does not equal expected
+            // or not the expected data type then return false
+            if (
+              result !== tests[index].expected ||
+              typeof result !== this.validateType
+            ) {
+              valid = false;
+            }
+          } else if (this.validateType === 'array') {
+            if (
+              JSON.stringify(result) !== JSON.stringify(tests[index].expected) ||
+              Array.isArray(result) === false
+            ) {
+              valid = false;
+            }
           }
 
           return valid;
@@ -202,10 +217,11 @@ class EPIJudgeTest {
   }
 
   switchType(type) {
-    switch (type) {
-      case 'int':
-        type = 'number';
-        break;
+    // handle type
+    if (type === 'int') {
+      type = 'number';
+    } else if (type.indexOf('tuple') !== -1) {
+      type = 'array';
     }
 
     return type;
